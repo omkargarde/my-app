@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+}
+
+.navbar-header {
+    flex: 1;
+}
+
+.navbar-items {
+    list-style-type: none;
+}
