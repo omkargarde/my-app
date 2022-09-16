@@ -1,17 +1,10 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import "./components/header/header.scss";
+@import "./components/footer/footer.scss";
+@import "./components/mainContent/mainContent.scss";
 
-}
+body {
+    font-family: 'Noto Sans', sans-serif;
 
-.navbar-header {}
-
-.navbar-items {
-    list-style-type: none;
-    display: flex;
-}
-
-.navbar-items>li {
-    padding: 10px;
 }

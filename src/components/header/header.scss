@@ -1,0 +1,20 @@
+header {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: red;
+    }
+
+    .navbar-header {}
+
+    .navbar-items {
+        list-style-type: none;
+        display: flex;
+    }
+
+    .navbar-items>li {
+        padding: 10px;
+    }
+}
