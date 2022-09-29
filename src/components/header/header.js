@@ -1,8 +1,9 @@
+import reactIcon from '../../assets/React-icon.svg.png';
 export default function Header() {
     return (
         <header>
             <nav className="navbar">
-                <div className="navbar-header">header is not working</div>
+                <img className='headerLogo' src={reactIcon} alt="react logo"></img><div className="navbar-header">header is not working</div>
                 <ul className="navbar-items">
                     <li>
                         contact
