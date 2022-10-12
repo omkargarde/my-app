@@ -1,24 +1,29 @@
-header {
     .headerLogo {
         height: 5%;
         width: 5%;
     }
 
     .navbar {
+        background-color: black;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        color: red;
+        justify-content: center;
     }
 
-    .navbar-header {}
+    .navbar-header {
+        color: aqua;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 10px;
+        margin-right: auto;
+    }
 
     .navbar-items {
         list-style-type: none;
         display: flex;
+        color: gainsboro;
     }
 
     .navbar-items>li {
         padding: 10px;
     }
-}

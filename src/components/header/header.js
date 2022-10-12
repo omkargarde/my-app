@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <header>
             <nav className="navbar">
-                <img className='headerLogo' src={reactIcon} alt="react logo"></img><div className="navbar-header">header is not working</div>
+                <img className='headerLogo' src={reactIcon} alt="react logo"></img><div className="navbar-header">reactFacts</div>
                 <ul className="navbar-items">
                     <li>
                         contact
